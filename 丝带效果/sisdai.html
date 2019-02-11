@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{margin: 0; padding:0;}
+        body,html{
+            font-size:14px;
+        }
+        .box{
+            margin:50px auto;
+            width:300px;
+            height:300px;
+            background-color: #ffffff;
+            position: relative;
+            -webkit-border-radius: 6px;
+            -moz-border-radius: 6px;
+            border-radius: 6px;
+            -webkit-box-shadow: 0 0 5px #999999;
+            -moz-box-shadow: 0 0 5px #999999;
+            box-shadow: 0 0 5px #999999;
+        }
+        .ribbon{
+            position: absolute;
+            top:0;
+            right:0;
+        }
+        .banner{
+            position: relative;
+            float: right;
+            display: block;
+            width:100px;
+            color: #ffffff;
+            -webkit-transform: rotate(45deg);
+            -moz-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+            top:22px;
+            right:-14px;
+        }
+        .banner:before,.banner:after{
+            content: '';
+            position: absolute;
+            width:30px;
+            height: 12px;
+            display: block;
+            background-color: #ff321c;
+        }
+        .banner:before{
+            left: -45px;
+            -webkit-transform: skewY(-45deg) translate(50%, 15px);
+            -moz-transform: skewY(-45deg) translate(50%, 15px);
+            -ms-transform: skewY(-45deg) translate(50%, 15px);
+            -o-transform: skewY(-45deg) translate(50%, 15px);
+            transform: skewY(-45deg) translate(50%, 15px);
+            -webkit-transform-origin:100% center;
+            -moz-transform-origin:100% center;
+            -ms-transform-origin:100% center;
+            -o-transform-origin:100% center;
+            transform-origin:100% center;
+        }
+        .banner:after{
+            right: -17px;
+            -webkit-transform: translate(100%, -100%) skewY(45deg) translateX(-58%);
+            -moz-transform: translate(100%, -100%) skewY(45deg) translateX(-58%);
+            -ms-transform: translate(100%, -100%) skewY(45deg) translateX(-58%);
+            -o-transform: translate(100%, -100%) skewY(45deg) translateX(-58%);
+            transform: translate(100%, -100%) skewY(45deg) translateX(-58%);
+            -webkit-transform-origin:0 center;
+            -moz-transform-origin:0 center;
+            -ms-transform-origin:0 center;
+            -o-transform-origin:0 center;
+            transform-origin:0 center;
+        }
+        .text{
+            position: relative;
+            padding:6px 0;
+            z-index: 2;
+            min-height:18px;
+            line-height:18px;
+            white-space: nowrap;
+            -ms-text-overflow: ellipsis;
+            text-overflow: ellipsis;
+            text-align: center;
+            text-transform: capitalize;
+        }
+        .text:before,.text:after{
+            content: '';
+            display: block;
+            height: 30px;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            z-index: -1;
+            background-color: #ff604f;
+        }
+        .text:before{
+            -webkit-transform: translateX(-15%) skewX(-45deg);
+            -moz-transform: translateX(-15%) skewX(-45deg);
+            -ms-transform: translateX(-15%) skewX(-45deg);
+            -o-transform: translateX(-15%) skewX(-45deg);
+            transform: translateX(-15%) skewX(-45deg);
+        }
+        .text:after{
+            -webkit-transform: translateX(15%) skewX(45deg);
+            -moz-transform: translateX(15%) skewX(45deg);
+            -ms-transform: translateX(15%) skewX(45deg);
+            -o-transform: translateX(15%) skewX(45deg);
+            transform: translateX(15%) skewX(45deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="ribbon">
+            <div class="banner">
+                <div class="text">
+                    happy new year
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

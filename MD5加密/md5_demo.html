@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="./md5.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+      var code = "123456";
+        var username = "123456";
+        var password = "123456";
+        var str1 = hex_md5("123456");
+        var str2 = b64_md5("123456");
+        var str3 = str_md5("123456");
+        var str4 = hex_hmac_md5(code,code);
+        var str5 = b64_hmac_md5(username,username);
+        var str6 = str_hmac_md5(password,password);
+        console.log(str1);            // e10adc3949ba59abbe56e057f20f883e
+        console.log(str2);            // 4QrcOUm6Wau+VuBX8g+IPg
+        console.log(str3);            // áÜ9IºY«¾VàWò>
+        console.log(str4);            // 30ce71a73bdd908c3955a90e8f7429ef
+        console.log(str5);            // MM5xpzvdkIw5VakOj3Qp7w
+        console.log(str6);            // 0Îq§;Ý9U©t)ï
+</script>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    .person {
+        width: 180px;
+        height: 300px;
+        background: url(img/charector.png) left no-repeat;
+        box-shadow: 0 0 5px #000;
+        margin: 100px auto 0;
+        animation: move 1s step-start infinite;
+    }
+
+    @keyframes move {
+        0% {
+            background-position: 0 0;
+        }
+        16.66667% {
+            background-position: -180px 0;
+        }
+        33.33334% {
+            background-position: -360px 0;
+        }
+        50% {
+            background-position: -540px 0;
+        }
+        66.66667% {
+            background-position: -720px 0;
+        }
+        83.33334% {
+            background-position: -900px 0;
+        }
+        100% {
+            background-position: -1080px 0;
+        }
+    }
+</style>
+
+<body>
+    <div class="person">
+
+    </div>
+</body>
+<script>
+    var str1 = "@keyframes move{";
+    for (var i = 0; i < 7; i++) {
+        var str = ((100 / 6) * i) + "%{" + "background-position:" + (-180 * i) + "px 0;}";
+        str1 += str;
+    }
+    $("head style").prepend(str1 + "}");
+</script>
+
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #smallImg{
+            width: 300px;
+            height: 300px;
+            position: relative;
+        }
+        #smallImg img{
+            width: 300px;
+            height: 300px;
+        }    
+        #lay{
+            position: absolute;
+            left: 0;
+            top: 0; 
+            border: 1px solid #666;
+            opacity: 0.6;
+            filter: alpha(opacity = 60);
+            background: #fff;
+            display: none;
+            cursor: move;
+        }
+        #bigImg{
+            width: 300px;
+            height: 300px;
+            position: absolute;
+            left: 320px;
+            overflow: hidden;
+            top: 0;
+            display: none;
+        }
+        #bigImg img{
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+    </style>
+</head>
+<body>
+      <!--   offsetLeft           //获取元素相对左侧的距离 （计算是从最左侧边框外开始）
+
+            clientLeft         //测量的是元素左侧边框的宽度
+            
+            clientTop    //测量的是元素的上边框的宽度
+            
+            clientWidht     //获取元素的宽度  不带边框（padding + margin）
+            
+            clientHeight    //获取元素的高度  不带边框  （padding + margin）
+
+            offsetTop           //获取元素相对顶部的距离 （计算是从最顶部边框外开始）
+            
+            offsetWidth       //获取元素宽度   （border + padding + margin）
+            
+            offsetHeight     //获取元素高度     （border +padding + margin） -->
+        
+    <div id="smallImg">
+        <img src="./img/1.jpg" alt="">
+        <div id="lay"></div>
+    </div>
+    <div id="bigImg">
+        <img src="./img/1.jpg" alt="">
+    </div>
+    <script>
+        window.onload = function(){
+            var lay = getId("lay"),
+                smallImg = getId("smallImg"),
+                bigImg = getId("bigImg");
+            var imgB = bigImg.children[0]; //大图中的图片
+            var scale = 4;        //缩放倍数  可调整
+            var w = smallImg.offsetWidth; //小图的宽高
+            var h = smallImg.offsetHeight;
+            lay.style.width = w / scale + "px";
+            lay.style.height = h / scale + "px";
+
+            imgB.style.width = w * scale + "px";
+            imgB.style.height = h * scale + "px";
+            smallImg.onmouseover = function(){
+                lay.style.display = "block";
+                bigImg.style.display = "block";
+            }    
+            smallImg.onmouseout = function(){
+                lay.style.display = "none";
+                bigImg.style.display = "none";
+            }
+            smallImg.onmousemove = function(e){
+                e = e || event;
+                var x = e.clientX - lay.offsetWidth/2;
+                var y = e.clientY - lay.offsetHeight/2;
+                if(x <= 0){            //左侧边界判断
+                    x = 0;
+                }
+                if(y <= 0){            //顶部边界判断
+                    y = 0;
+                }
+                if(x >= smallImg.offsetWidth - lay.offsetWidth ){
+                    x = smallImg.offsetWidth - lay.offsetWidth        //右侧边界判断
+                }
+                if(y >= smallImg.offsetHeight - lay.offsetHeight ){
+                    y = smallImg.offsetHeight - lay.offsetHeight        //底部边界判断
+                }
+                lay.style.left = x + "px";
+                lay.style.top = y + "px";
+                imgB.style.left = -x*scale + "px";    //图片默认位置为0 0左上角位置 需要反向才能两者相对显示
+                imgB.style.top = -y*scale + "px";
+            }    
+        }
+        function getId(id){
+            return document.getElementById(id);
+        }
+    </script>
+</body>
+</html>
