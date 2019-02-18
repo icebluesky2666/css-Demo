@@ -1,0 +1,34 @@
+<html>
+
+<head>
+    <title>Document</title>
+</head>
+
+<body>
+    <select id="select1" onchange="add1(this.value);">
+                <option value = "-1">--请选择--</option>
+                <option value = "0">王者荣耀</option>
+                <option value = "1">英雄联盟</option>
+                <option value = "2">穿越火线</option>
+                <option value = "3">绝地求生</option>
+            </select>
+    <select id="select2">
+        </select>
+</body>
+
+</html>
+<script type="text/javascript">
+    function add1(val) {
+        var sl = document.getElementById("select2");
+        var array = [
+            ["孙尚香", "公孙离", "虞姬", "貂蝉"],
+            ["剑豪", "剑圣", "剑姬", "剑魔"],
+            ["火麒麟", "雷神", "AK-47", "9194"],
+            ["98K", "ak47", "八倍镜", "四倍镜"]
+        ]
+        sl.options.length = 0; // 清空
+        for (let i = 0; i < (val >= 0 && array[parseInt(val)].length - 1); i++) { // 赋值
+            sl.options.add(new Option(array[parseInt(val)][i], ""));
+        }
+    }
+</script>
