@@ -1,0 +1,45 @@
+html body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    background: rgba(14, 99, 69, 1);
+}
+
+@snowbg: 20; //雪花
+@windowWidth: 750;
+
+.snow{
+    position: absolute;
+    background:#fff;
+    filter: blur(3px);
+}
+.snow(@index) when (@index>0){
+    .snow_@{index}{
+        //宽
+        width: ~"`Math.round(Math.random()*@{snowbg})`px";
+        //高
+        .snow_tip{
+            padding-top:50%;
+        }
+        // 左位置
+        left: ~"`Math.round(Math.random()*100)`%";
+        // 上位置
+        top: ~"`Math.round(Math.random()*100)`%";
+        //动画
+        animation: ~"snowni_@{index} `(-Math.random() * 4 + 8).toFixed(2)`s linear infinite";
+        //延时
+        animation-delay: ~"`(-Math.random() * 8 + 0.2).toFixed(2)`s";
+    }
+    @keyframes ~"snowni_@{index}" { 
+        0%{
+            transform: translateX(0);
+        }
+
+        100%{
+            transform: ~"translateX(`Math.round(Math.random() * 100 + 1600)`px)";
+        }
+    }
+    .snow((@index - 1));
+}
+
+.snow(60);

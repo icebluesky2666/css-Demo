@@ -32,366 +32,46 @@ body {
   filter: blur(5px);
 }
 .snow_60 {
-  left: 346px;
-  animation: snowani_60 7.55s linear infinite;
-  animation-delay: -0.91s;
+  left: 445px;
+  animation: snowani_60 5.87s linear infinite;
+  animation-delay: -4.48s;
 }
 .snow_60:after {
-  transform: scale(0.97);
+  transform: scale(0.75);
 }
 @keyframes snowani_60 {
   0% {
     transform: translateY(0);
   }
   100% {
-    transform: translateY(1705px);
+    transform: translateY(1629px);
   }
 }
 .snow_59 {
-  left: 483px;
-  animation: snowani_59 5.59s linear infinite;
-  animation-delay: -5.53s;
+  left: 467px;
+  animation: snowani_59 6.04s linear infinite;
+  animation-delay: -5.37s;
 }
 .snow_59:after {
-  transform: scale(0.52);
+  transform: scale(1.07);
 }
 @keyframes snowani_59 {
   0% {
     transform: translateY(0);
   }
   100% {
-    transform: translateY(1707px);
+    transform: translateY(1748px);
   }
 }
 .snow_58 {
-  left: 27px;
-  animation: snowani_58 6.87s linear infinite;
-  animation-delay: -5.28s;
+  left: 309px;
+  animation: snowani_58 6.77s linear infinite;
+  animation-delay: -2.86s;
 }
 .snow_58:after {
-  transform: scale(1.00);
+  transform: scale(1.07);
 }
 @keyframes snowani_58 {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(1775px);
-  }
-}
-.snow_57 {
-  left: 54px;
-  animation: snowani_57 7.77s linear infinite;
-  animation-delay: 0.15s;
-}
-.snow_57:after {
-  transform: scale(1.01);
-}
-@keyframes snowani_57 {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(1730px);
-  }
-}
-.snow_56 {
-  left: 509px;
-  animation: snowani_56 7.45s linear infinite;
-  animation-delay: -0.79s;
-}
-.snow_56:after {
-  transform: scale(0.96);
-}
-@keyframes snowani_56 {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(1772px);
-  }
-}
-.snow_55 {
-  left: 367px;
-  animation: snowani_55 5.11s linear infinite;
-  animation-delay: -5.85s;
-}
-.snow_55:after {
-  transform: scale(1.10);
-}
-@keyframes snowani_55 {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(1749px);
-  }
-}
-.snow_54 {
-  left: 652px;
-  animation: snowani_54 7.02s linear infinite;
-  animation-delay: -7.70s;
-}
-.snow_54:after {
-  transform: scale(1.11);
-}
-@keyframes snowani_54 {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(1703px);
-  }
-}
-.snow_53 {
-  left: 270px;
-  animation: snowani_53 6.27s linear infinite;
-  animation-delay: -3.56s;
-}
-.snow_53:after {
-  transform: scale(0.84);
-}
-@keyframes snowani_53 {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(1788px);
-  }
-}
-.snow_52 {
-  left: 417px;
-  animation: snowani_52 5.02s linear infinite;
-  animation-delay: -2.63s;
-}
-.snow_52:after {
-  transform: scale(0.62);
-}
-@keyframes snowani_52 {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(1604px);
-  }
-}
-.snow_51 {
-  left: 299px;
-  animation: snowani_51 5.83s linear infinite;
-  animation-delay: -3.44s;
-}
-.snow_51:after {
-  transform: scale(0.57);
-}
-@keyframes snowani_51 {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(1691px);
-  }
-}
-.snow_50 {
-  left: 525px;
-  animation: snowani_50 7.44s linear infinite;
-  animation-delay: -5.27s;
-}
-.snow_50:after {
-  transform: scale(1.00);
-}
-@keyframes snowani_50 {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(1639px);
-  }
-}
-.snow_49 {
-  left: 686px;
-  animation: snowani_49 4.75s linear infinite;
-  animation-delay: -2.95s;
-}
-.snow_49:after {
-  transform: scale(0.70);
-}
-@keyframes snowani_49 {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(1684px);
-  }
-}
-.snow_48 {
-  left: 591px;
-  animation: snowani_48 6.66s linear infinite;
-  animation-delay: -1.11s;
-}
-.snow_48:after {
-  transform: scale(0.79);
-}
-@keyframes snowani_48 {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(1674px);
-  }
-}
-.snow_47 {
-  left: 188px;
-  animation: snowani_47 5.98s linear infinite;
-  animation-delay: -6.91s;
-}
-.snow_47:after {
-  transform: scale(0.95);
-}
-@keyframes snowani_47 {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(1699px);
-  }
-}
-.snow_46 {
-  left: 431px;
-  animation: snowani_46 7.66s linear infinite;
-  animation-delay: -7.40s;
-}
-.snow_46:after {
-  transform: scale(0.77);
-}
-@keyframes snowani_46 {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(1761px);
-  }
-}
-.snow_45 {
-  left: 111px;
-  animation: snowani_45 6.27s linear infinite;
-  animation-delay: -1.72s;
-}
-.snow_45:after {
-  transform: scale(1.04);
-}
-@keyframes snowani_45 {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(1743px);
-  }
-}
-.snow_44 {
-  left: 187px;
-  animation: snowani_44 6.07s linear infinite;
-  animation-delay: -6.06s;
-}
-.snow_44:after {
-  transform: scale(0.55);
-}
-@keyframes snowani_44 {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(1728px);
-  }
-}
-.snow_43 {
-  left: 432px;
-  animation: snowani_43 4.66s linear infinite;
-  animation-delay: -2.43s;
-}
-.snow_43:after {
-  transform: scale(1.03);
-}
-@keyframes snowani_43 {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(1659px);
-  }
-}
-.snow_42 {
-  left: 298px;
-  animation: snowani_42 4.45s linear infinite;
-  animation-delay: -1.55s;
-}
-.snow_42:after {
-  transform: scale(0.73);
-}
-@keyframes snowani_42 {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(1651px);
-  }
-}
-.snow_41 {
-  left: 296px;
-  animation: snowani_41 5.69s linear infinite;
-  animation-delay: -2.04s;
-}
-.snow_41:after {
-  transform: scale(0.54);
-}
-@keyframes snowani_41 {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(1772px);
-  }
-}
-.snow_40 {
-  left: 676px;
-  animation: snowani_40 4.87s linear infinite;
-  animation-delay: -2.90s;
-}
-.snow_40:after {
-  transform: scale(0.58);
-}
-@keyframes snowani_40 {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(1700px);
-  }
-}
-.snow_39 {
-  left: 680px;
-  animation: snowani_39 4.80s linear infinite;
-  animation-delay: -5.12s;
-}
-.snow_39:after {
-  transform: scale(0.73);
-}
-@keyframes snowani_39 {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(1727px);
-  }
-}
-.snow_38 {
-  left: 732px;
-  animation: snowani_38 5.17s linear infinite;
-  animation-delay: -6.85s;
-}
-.snow_38:after {
-  transform: scale(0.94);
-}
-@keyframes snowani_38 {
   0% {
     transform: translateY(0);
   }
@@ -399,175 +79,15 @@ body {
     transform: translateY(1654px);
   }
 }
-.snow_37 {
-  left: 120px;
-  animation: snowani_37 4.62s linear infinite;
-  animation-delay: -0.19s;
+.snow_57 {
+  left: 174px;
+  animation: snowani_57 7.76s linear infinite;
+  animation-delay: -3.47s;
 }
-.snow_37:after {
-  transform: scale(1.09);
+.snow_57:after {
+  transform: scale(0.91);
 }
-@keyframes snowani_37 {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(1673px);
-  }
-}
-.snow_36 {
-  left: 259px;
-  animation: snowani_36 5.06s linear infinite;
-  animation-delay: 0.08s;
-}
-.snow_36:after {
-  transform: scale(0.80);
-}
-@keyframes snowani_36 {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(1736px);
-  }
-}
-.snow_35 {
-  left: 99px;
-  animation: snowani_35 5.75s linear infinite;
-  animation-delay: -1.87s;
-}
-.snow_35:after {
-  transform: scale(1.13);
-}
-@keyframes snowani_35 {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(1705px);
-  }
-}
-.snow_34 {
-  left: 341px;
-  animation: snowani_34 7.26s linear infinite;
-  animation-delay: -4.61s;
-}
-.snow_34:after {
-  transform: scale(0.96);
-}
-@keyframes snowani_34 {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(1707px);
-  }
-}
-.snow_33 {
-  left: 466px;
-  animation: snowani_33 5.65s linear infinite;
-  animation-delay: -1.93s;
-}
-.snow_33:after {
-  transform: scale(0.86);
-}
-@keyframes snowani_33 {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(1655px);
-  }
-}
-.snow_32 {
-  left: 31px;
-  animation: snowani_32 5.53s linear infinite;
-  animation-delay: -0.86s;
-}
-.snow_32:after {
-  transform: scale(0.55);
-}
-@keyframes snowani_32 {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(1754px);
-  }
-}
-.snow_31 {
-  left: 268px;
-  animation: snowani_31 6.76s linear infinite;
-  animation-delay: -6.57s;
-}
-.snow_31:after {
-  transform: scale(0.72);
-}
-@keyframes snowani_31 {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(1667px);
-  }
-}
-.snow_30 {
-  left: 384px;
-  animation: snowani_30 5.74s linear infinite;
-  animation-delay: -5.48s;
-}
-.snow_30:after {
-  transform: scale(0.61);
-}
-@keyframes snowani_30 {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(1774px);
-  }
-}
-.snow_29 {
-  left: 31px;
-  animation: snowani_29 4.05s linear infinite;
-  animation-delay: -3.03s;
-}
-.snow_29:after {
-  transform: scale(0.80);
-}
-@keyframes snowani_29 {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(1680px);
-  }
-}
-.snow_28 {
-  left: 653px;
-  animation: snowani_28 4.23s linear infinite;
-  animation-delay: -5.20s;
-}
-.snow_28:after {
-  transform: scale(0.69);
-}
-@keyframes snowani_28 {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(1785px);
-  }
-}
-.snow_27 {
-  left: 648px;
-  animation: snowani_27 7.27s linear infinite;
-  animation-delay: -6.51s;
-}
-.snow_27:after {
-  transform: scale(0.80);
-}
-@keyframes snowani_27 {
+@keyframes snowani_57 {
   0% {
     transform: translateY(0);
   }
@@ -575,239 +95,95 @@ body {
     transform: translateY(1694px);
   }
 }
-.snow_26 {
-  left: 540px;
-  animation: snowani_26 5.36s linear infinite;
-  animation-delay: -7.07s;
+.snow_56 {
+  left: 571px;
+  animation: snowani_56 6.33s linear infinite;
+  animation-delay: -2.68s;
 }
-.snow_26:after {
-  transform: scale(0.54);
+.snow_56:after {
+  transform: scale(0.99);
 }
-@keyframes snowani_26 {
+@keyframes snowani_56 {
   0% {
     transform: translateY(0);
   }
   100% {
-    transform: translateY(1641px);
+    transform: translateY(1624px);
   }
 }
-.snow_25 {
-  left: 323px;
-  animation: snowani_25 7.37s linear infinite;
-  animation-delay: -3.37s;
+.snow_55 {
+  left: 218px;
+  animation: snowani_55 6.21s linear infinite;
+  animation-delay: -4.59s;
 }
-.snow_25:after {
-  transform: scale(0.70);
+.snow_55:after {
+  transform: scale(1.19);
 }
-@keyframes snowani_25 {
+@keyframes snowani_55 {
   0% {
     transform: translateY(0);
   }
   100% {
-    transform: translateY(1645px);
+    transform: translateY(1727px);
   }
 }
-.snow_24 {
-  left: 138px;
-  animation: snowani_24 6.18s linear infinite;
-  animation-delay: -7.72s;
+.snow_54 {
+  left: 695px;
+  animation: snowani_54 4.85s linear infinite;
+  animation-delay: -7.53s;
 }
-.snow_24:after {
-  transform: scale(0.56);
-}
-@keyframes snowani_24 {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(1729px);
-  }
-}
-.snow_23 {
-  left: 609px;
-  animation: snowani_23 7.77s linear infinite;
-  animation-delay: -4.86s;
-}
-.snow_23:after {
-  transform: scale(0.81);
-}
-@keyframes snowani_23 {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(1730px);
-  }
-}
-.snow_22 {
-  left: 207px;
-  animation: snowani_22 4.55s linear infinite;
-  animation-delay: -4.66s;
-}
-.snow_22:after {
-  transform: scale(1.12);
-}
-@keyframes snowani_22 {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(1761px);
-  }
-}
-.snow_21 {
-  left: 187px;
-  animation: snowani_21 5.72s linear infinite;
-  animation-delay: 0.07s;
-}
-.snow_21:after {
-  transform: scale(0.58);
-}
-@keyframes snowani_21 {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(1639px);
-  }
-}
-.snow_20 {
-  left: 471px;
-  animation: snowani_20 6.22s linear infinite;
-  animation-delay: -0.33s;
-}
-.snow_20:after {
-  transform: scale(0.75);
-}
-@keyframes snowani_20 {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(1770px);
-  }
-}
-.snow_19 {
-  left: 247px;
-  animation: snowani_19 6.05s linear infinite;
-  animation-delay: -1.24s;
-}
-.snow_19:after {
-  transform: scale(1.03);
-}
-@keyframes snowani_19 {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(1780px);
-  }
-}
-.snow_18 {
-  left: 496px;
-  animation: snowani_18 5.32s linear infinite;
-  animation-delay: -2.10s;
-}
-.snow_18:after {
-  transform: scale(0.95);
-}
-@keyframes snowani_18 {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(1707px);
-  }
-}
-.snow_17 {
-  left: 746px;
-  animation: snowani_17 7.99s linear infinite;
-  animation-delay: 0.06s;
-}
-.snow_17:after {
-  transform: scale(1.14);
-}
-@keyframes snowani_17 {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(1608px);
-  }
-}
-.snow_16 {
-  left: 387px;
-  animation: snowani_16 6.68s linear infinite;
-  animation-delay: -4.21s;
-}
-.snow_16:after {
-  transform: scale(0.66);
-}
-@keyframes snowani_16 {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(1770px);
-  }
-}
-.snow_15 {
-  left: 421px;
-  animation: snowani_15 6.21s linear infinite;
-  animation-delay: -3.41s;
-}
-.snow_15:after {
-  transform: scale(0.91);
-}
-@keyframes snowani_15 {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(1634px);
-  }
-}
-.snow_14 {
-  left: 640px;
-  animation: snowani_14 7.40s linear infinite;
-  animation-delay: -2.19s;
-}
-.snow_14:after {
-  transform: scale(0.75);
-}
-@keyframes snowani_14 {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(1686px);
-  }
-}
-.snow_13 {
-  left: 276px;
-  animation: snowani_13 6.61s linear infinite;
-  animation-delay: -6.95s;
-}
-.snow_13:after {
+.snow_54:after {
   transform: scale(0.61);
 }
-@keyframes snowani_13 {
+@keyframes snowani_54 {
   0% {
     transform: translateY(0);
   }
   100% {
-    transform: translateY(1749px);
+    transform: translateY(1670px);
   }
 }
-.snow_12 {
-  left: 400px;
-  animation: snowani_12 6.98s linear infinite;
-  animation-delay: -2.46s;
+.snow_53 {
+  left: 697px;
+  animation: snowani_53 4.55s linear infinite;
+  animation-delay: -4.19s;
 }
-.snow_12:after {
+.snow_53:after {
   transform: scale(0.68);
 }
-@keyframes snowani_12 {
+@keyframes snowani_53 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(1620px);
+  }
+}
+.snow_52 {
+  left: 210px;
+  animation: snowani_52 4.30s linear infinite;
+  animation-delay: -2.88s;
+}
+.snow_52:after {
+  transform: scale(0.81);
+}
+@keyframes snowani_52 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(1795px);
+  }
+}
+.snow_51 {
+  left: 311px;
+  animation: snowani_51 6.40s linear infinite;
+  animation-delay: -4.15s;
+}
+.snow_51:after {
+  transform: scale(0.94);
+}
+@keyframes snowani_51 {
   0% {
     transform: translateY(0);
   }
@@ -815,63 +191,575 @@ body {
     transform: translateY(1636px);
   }
 }
-.snow_11 {
-  left: 736px;
-  animation: snowani_11 6.81s linear infinite;
-  animation-delay: -4.48s;
+.snow_50 {
+  left: 540px;
+  animation: snowani_50 4.01s linear infinite;
+  animation-delay: -2.85s;
 }
-.snow_11:after {
+.snow_50:after {
+  transform: scale(0.62);
+}
+@keyframes snowani_50 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(1678px);
+  }
+}
+.snow_49 {
+  left: 520px;
+  animation: snowani_49 5.58s linear infinite;
+  animation-delay: -4.65s;
+}
+.snow_49:after {
+  transform: scale(0.98);
+}
+@keyframes snowani_49 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(1790px);
+  }
+}
+.snow_48 {
+  left: 555px;
+  animation: snowani_48 5.54s linear infinite;
+  animation-delay: -0.09s;
+}
+.snow_48:after {
+  transform: scale(1.14);
+}
+@keyframes snowani_48 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(1743px);
+  }
+}
+.snow_47 {
+  left: 535px;
+  animation: snowani_47 6.31s linear infinite;
+  animation-delay: -2.05s;
+}
+.snow_47:after {
+  transform: scale(1.00);
+}
+@keyframes snowani_47 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(1774px);
+  }
+}
+.snow_46 {
+  left: 387px;
+  animation: snowani_46 4.50s linear infinite;
+  animation-delay: -3.89s;
+}
+.snow_46:after {
+  transform: scale(1.18);
+}
+@keyframes snowani_46 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(1688px);
+  }
+}
+.snow_45 {
+  left: 232px;
+  animation: snowani_45 7.37s linear infinite;
+  animation-delay: -6.23s;
+}
+.snow_45:after {
+  transform: scale(0.91);
+}
+@keyframes snowani_45 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(1707px);
+  }
+}
+.snow_44 {
+  left: 593px;
+  animation: snowani_44 4.68s linear infinite;
+  animation-delay: -7.36s;
+}
+.snow_44:after {
+  transform: scale(0.89);
+}
+@keyframes snowani_44 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(1744px);
+  }
+}
+.snow_43 {
+  left: 532px;
+  animation: snowani_43 5.55s linear infinite;
+  animation-delay: -5.64s;
+}
+.snow_43:after {
+  transform: scale(0.91);
+}
+@keyframes snowani_43 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(1669px);
+  }
+}
+.snow_42 {
+  left: 606px;
+  animation: snowani_42 7.52s linear infinite;
+  animation-delay: -5.84s;
+}
+.snow_42:after {
+  transform: scale(1.00);
+}
+@keyframes snowani_42 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(1722px);
+  }
+}
+.snow_41 {
+  left: 405px;
+  animation: snowani_41 5.68s linear infinite;
+  animation-delay: -5.97s;
+}
+.snow_41:after {
+  transform: scale(0.58);
+}
+@keyframes snowani_41 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(1799px);
+  }
+}
+.snow_40 {
+  left: 483px;
+  animation: snowani_40 4.74s linear infinite;
+  animation-delay: -0.88s;
+}
+.snow_40:after {
+  transform: scale(0.53);
+}
+@keyframes snowani_40 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(1735px);
+  }
+}
+.snow_39 {
+  left: 175px;
+  animation: snowani_39 7.24s linear infinite;
+  animation-delay: -6.12s;
+}
+.snow_39:after {
+  transform: scale(0.95);
+}
+@keyframes snowani_39 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(1745px);
+  }
+}
+.snow_38 {
+  left: 107px;
+  animation: snowani_38 4.59s linear infinite;
+  animation-delay: -4.09s;
+}
+.snow_38:after {
+  transform: scale(1.11);
+}
+@keyframes snowani_38 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(1703px);
+  }
+}
+.snow_37 {
+  left: 504px;
+  animation: snowani_37 5.92s linear infinite;
+  animation-delay: -3.82s;
+}
+.snow_37:after {
+  transform: scale(1.03);
+}
+@keyframes snowani_37 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(1605px);
+  }
+}
+.snow_36 {
+  left: 154px;
+  animation: snowani_36 5.28s linear infinite;
+  animation-delay: -1.49s;
+}
+.snow_36:after {
+  transform: scale(0.76);
+}
+@keyframes snowani_36 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(1631px);
+  }
+}
+.snow_35 {
+  left: 141px;
+  animation: snowani_35 4.23s linear infinite;
+  animation-delay: -3.03s;
+}
+.snow_35:after {
+  transform: scale(0.75);
+}
+@keyframes snowani_35 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(1704px);
+  }
+}
+.snow_34 {
+  left: 225px;
+  animation: snowani_34 7.98s linear infinite;
+  animation-delay: -5.17s;
+}
+.snow_34:after {
+  transform: scale(0.98);
+}
+@keyframes snowani_34 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(1776px);
+  }
+}
+.snow_33 {
+  left: 702px;
+  animation: snowani_33 5.95s linear infinite;
+  animation-delay: -5.39s;
+}
+.snow_33:after {
+  transform: scale(0.70);
+}
+@keyframes snowani_33 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(1763px);
+  }
+}
+.snow_32 {
+  left: 329px;
+  animation: snowani_32 4.97s linear infinite;
+  animation-delay: -4.86s;
+}
+.snow_32:after {
+  transform: scale(1.05);
+}
+@keyframes snowani_32 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(1714px);
+  }
+}
+.snow_31 {
+  left: 270px;
+  animation: snowani_31 4.08s linear infinite;
+  animation-delay: -3.07s;
+}
+.snow_31:after {
+  transform: scale(0.62);
+}
+@keyframes snowani_31 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(1719px);
+  }
+}
+.snow_30 {
+  left: 203px;
+  animation: snowani_30 4.60s linear infinite;
+  animation-delay: -2.67s;
+}
+.snow_30:after {
+  transform: scale(1.11);
+}
+@keyframes snowani_30 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(1723px);
+  }
+}
+.snow_29 {
+  left: 95px;
+  animation: snowani_29 7.58s linear infinite;
+  animation-delay: -7.75s;
+}
+.snow_29:after {
+  transform: scale(0.69);
+}
+@keyframes snowani_29 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(1655px);
+  }
+}
+.snow_28 {
+  left: 746px;
+  animation: snowani_28 4.26s linear infinite;
+  animation-delay: -3.94s;
+}
+.snow_28:after {
+  transform: scale(0.56);
+}
+@keyframes snowani_28 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(1790px);
+  }
+}
+.snow_27 {
+  left: 687px;
+  animation: snowani_27 4.35s linear infinite;
+  animation-delay: -3.61s;
+}
+.snow_27:after {
+  transform: scale(1.07);
+}
+@keyframes snowani_27 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(1737px);
+  }
+}
+.snow_26 {
+  left: 470px;
+  animation: snowani_26 5.30s linear infinite;
+  animation-delay: -4.24s;
+}
+.snow_26:after {
+  transform: scale(0.63);
+}
+@keyframes snowani_26 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(1688px);
+  }
+}
+.snow_25 {
+  left: 268px;
+  animation: snowani_25 5.13s linear infinite;
+  animation-delay: -7.51s;
+}
+.snow_25:after {
+  transform: scale(0.96);
+}
+@keyframes snowani_25 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(1649px);
+  }
+}
+.snow_24 {
+  left: 710px;
+  animation: snowani_24 6.67s linear infinite;
+  animation-delay: -5.44s;
+}
+.snow_24:after {
+  transform: scale(0.76);
+}
+@keyframes snowani_24 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(1702px);
+  }
+}
+.snow_23 {
+  left: 430px;
+  animation: snowani_23 7.53s linear infinite;
+  animation-delay: -1.42s;
+}
+.snow_23:after {
+  transform: scale(0.90);
+}
+@keyframes snowani_23 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(1777px);
+  }
+}
+.snow_22 {
+  left: 700px;
+  animation: snowani_22 5.91s linear infinite;
+  animation-delay: -6.83s;
+}
+.snow_22:after {
+  transform: scale(0.66);
+}
+@keyframes snowani_22 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(1752px);
+  }
+}
+.snow_21 {
+  left: 191px;
+  animation: snowani_21 4.96s linear infinite;
+  animation-delay: -1.72s;
+}
+.snow_21:after {
+  transform: scale(1.14);
+}
+@keyframes snowani_21 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(1712px);
+  }
+}
+.snow_20 {
+  left: 538px;
+  animation: snowani_20 7.96s linear infinite;
+  animation-delay: -3.88s;
+}
+.snow_20:after {
+  transform: scale(0.65);
+}
+@keyframes snowani_20 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(1729px);
+  }
+}
+.snow_19 {
+  left: 611px;
+  animation: snowani_19 7.46s linear infinite;
+  animation-delay: -1.82s;
+}
+.snow_19:after {
+  transform: scale(0.53);
+}
+@keyframes snowani_19 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(1632px);
+  }
+}
+.snow_18 {
+  left: 292px;
+  animation: snowani_18 5.54s linear infinite;
+  animation-delay: -5.74s;
+}
+.snow_18:after {
+  transform: scale(0.81);
+}
+@keyframes snowani_18 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(1736px);
+  }
+}
+.snow_17 {
+  left: 673px;
+  animation: snowani_17 4.27s linear infinite;
+  animation-delay: -2.08s;
+}
+.snow_17:after {
+  transform: scale(0.78);
+}
+@keyframes snowani_17 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(1749px);
+  }
+}
+.snow_16 {
+  left: 744px;
+  animation: snowani_16 5.12s linear infinite;
+  animation-delay: -3.19s;
+}
+.snow_16:after {
   transform: scale(1.06);
 }
-@keyframes snowani_11 {
+@keyframes snowani_16 {
   0% {
     transform: translateY(0);
   }
   100% {
-    transform: translateY(1753px);
+    transform: translateY(1601px);
   }
 }
-.snow_10 {
-  left: 608px;
-  animation: snowani_10 4.08s linear infinite;
-  animation-delay: -2.90s;
+.snow_15 {
+  left: 596px;
+  animation: snowani_15 6.59s linear infinite;
+  animation-delay: 0.11s;
 }
-.snow_10:after {
-  transform: scale(0.52);
+.snow_15:after {
+  transform: scale(0.89);
 }
-@keyframes snowani_10 {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(1668px);
-  }
-}
-.snow_9 {
-  left: 173px;
-  animation: snowani_9 6.53s linear infinite;
-  animation-delay: -7.54s;
-}
-.snow_9:after {
-  transform: scale(1.01);
-}
-@keyframes snowani_9 {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(1699px);
-  }
-}
-.snow_8 {
-  left: 292px;
-  animation: snowani_8 7.19s linear infinite;
-  animation-delay: -5.00s;
-}
-.snow_8:after {
-  transform: scale(0.99);
-}
-@keyframes snowani_8 {
+@keyframes snowani_15 {
   0% {
     transform: translateY(0);
   }
@@ -879,115 +767,227 @@ body {
     transform: translateY(1671px);
   }
 }
+.snow_14 {
+  left: 714px;
+  animation: snowani_14 7.08s linear infinite;
+  animation-delay: -5.90s;
+}
+.snow_14:after {
+  transform: scale(1.02);
+}
+@keyframes snowani_14 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(1714px);
+  }
+}
+.snow_13 {
+  left: 247px;
+  animation: snowani_13 7.11s linear infinite;
+  animation-delay: -1.10s;
+}
+.snow_13:after {
+  transform: scale(0.57);
+}
+@keyframes snowani_13 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(1668px);
+  }
+}
+.snow_12 {
+  left: 515px;
+  animation: snowani_12 4.49s linear infinite;
+  animation-delay: -2.31s;
+}
+.snow_12:after {
+  transform: scale(1.05);
+}
+@keyframes snowani_12 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(1720px);
+  }
+}
+.snow_11 {
+  left: 583px;
+  animation: snowani_11 6.98s linear infinite;
+  animation-delay: -3.79s;
+}
+.snow_11:after {
+  transform: scale(0.90);
+}
+@keyframes snowani_11 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(1768px);
+  }
+}
+.snow_10 {
+  left: 509px;
+  animation: snowani_10 6.94s linear infinite;
+  animation-delay: -6.07s;
+}
+.snow_10:after {
+  transform: scale(1.17);
+}
+@keyframes snowani_10 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(1762px);
+  }
+}
+.snow_9 {
+  left: 262px;
+  animation: snowani_9 4.93s linear infinite;
+  animation-delay: -6.93s;
+}
+.snow_9:after {
+  transform: scale(0.64);
+}
+@keyframes snowani_9 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(1625px);
+  }
+}
+.snow_8 {
+  left: 228px;
+  animation: snowani_8 7.38s linear infinite;
+  animation-delay: -4.30s;
+}
+.snow_8:after {
+  transform: scale(0.58);
+}
+@keyframes snowani_8 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(1747px);
+  }
+}
 .snow_7 {
-  left: 159px;
-  animation: snowani_7 7.17s linear infinite;
-  animation-delay: -4.86s;
+  left: 438px;
+  animation: snowani_7 6.45s linear infinite;
+  animation-delay: -7.79s;
 }
 .snow_7:after {
-  transform: scale(0.82);
+  transform: scale(0.91);
 }
 @keyframes snowani_7 {
   0% {
     transform: translateY(0);
   }
   100% {
-    transform: translateY(1682px);
+    transform: translateY(1713px);
   }
 }
 .snow_6 {
-  left: 598px;
-  animation: snowani_6 6.42s linear infinite;
-  animation-delay: -0.62s;
+  left: 294px;
+  animation: snowani_6 7.59s linear infinite;
+  animation-delay: -1.58s;
 }
 .snow_6:after {
-  transform: scale(0.62);
+  transform: scale(0.52);
 }
 @keyframes snowani_6 {
   0% {
     transform: translateY(0);
   }
   100% {
-    transform: translateY(1761px);
+    transform: translateY(1748px);
   }
 }
 .snow_5 {
-  left: 47px;
-  animation: snowani_5 5.60s linear infinite;
-  animation-delay: -5.94s;
+  left: 14px;
+  animation: snowani_5 6.83s linear infinite;
+  animation-delay: -0.73s;
 }
 .snow_5:after {
-  transform: scale(0.80);
+  transform: scale(1.01);
 }
 @keyframes snowani_5 {
   0% {
     transform: translateY(0);
   }
   100% {
-    transform: translateY(1756px);
+    transform: translateY(1740px);
   }
 }
 .snow_4 {
-  left: 435px;
-  animation: snowani_4 4.88s linear infinite;
-  animation-delay: -7.33s;
+  left: 615px;
+  animation: snowani_4 5.80s linear infinite;
+  animation-delay: -2.29s;
 }
 .snow_4:after {
-  transform: scale(0.68);
+  transform: scale(1.20);
 }
 @keyframes snowani_4 {
   0% {
     transform: translateY(0);
   }
   100% {
-    transform: translateY(1640px);
+    transform: translateY(1790px);
   }
 }
 .snow_3 {
-  left: 716px;
-  animation: snowani_3 7.13s linear infinite;
-  animation-delay: -7.41s;
+  left: 120px;
+  animation: snowani_3 6.23s linear infinite;
+  animation-delay: -6.29s;
 }
 .snow_3:after {
-  transform: scale(1.09);
+  transform: scale(0.53);
 }
 @keyframes snowani_3 {
   0% {
     transform: translateY(0);
   }
   100% {
-    transform: translateY(1697px);
+    transform: translateY(1621px);
   }
 }
 .snow_2 {
-  left: 482px;
-  animation: snowani_2 7.97s linear infinite;
-  animation-delay: -2.20s;
+  left: 654px;
+  animation: snowani_2 7.51s linear infinite;
+  animation-delay: -1.73s;
 }
 .snow_2:after {
-  transform: scale(0.78);
+  transform: scale(0.58);
 }
 @keyframes snowani_2 {
   0% {
     transform: translateY(0);
   }
   100% {
-    transform: translateY(1739px);
+    transform: translateY(1707px);
   }
 }
 .snow_1 {
-  left: 405px;
-  animation: snowani_1 7.03s linear infinite;
-  animation-delay: -7.18s;
+  left: 115px;
+  animation: snowani_1 7.57s linear infinite;
+  animation-delay: -2.60s;
 }
 .snow_1:after {
-  transform: scale(1.06);
+  transform: scale(0.68);
 }
 @keyframes snowani_1 {
   0% {
     transform: translateY(0);
   }
   100% {
-    transform: translateY(1747px);
+    transform: translateY(1712px);
   }
 }
